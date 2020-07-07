@@ -18,27 +18,32 @@ date_format = "Jan 2006"
 #   Leave `date_end` empty if it's your current employer.
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 [[experience]]
-  title = "CEO"
-  company = "GenCoin"
+  title = "Data Science Research"
+  company = "Wake Forest University"
   company_url = ""
-  location = "California"
-  date_start = "2017-01-01"
+  location = "Winston-Salem, North Carolina"
+  date_start = "2020-01-01"
   date_end = ""
   description = """
-  Responsibilities include:
+  Data Science Pedagogy studies include:
   
-  * Analysing
-  * Modelling
-  * Deploying
+  * deploying R packages such as learnr, shiny, rdrop2, and more
+  * building tutorials for a randomized controlled trial
+  * using R for randomization and collection of data
+  
   """
 
 [[experience]]
-  title = "Professor"
-  company = "University X"
+  title = "New South Wales Health Research"
+  company = "Westmead Institute For Medical Research"
   company_url = ""
-  location = "California"
-  date_start = "2016-01-01"
-  date_end = "2016-12-31"
-  description = """Taught electronic engineering and researched semiconductor physics."""
+  location = "Sydney, New South Wales"
+  date_start = "2019-08-01"
+  date_end = "2020-01-01"
+  description = """
+  Completed projects with various industries involving preventative health, chronic illness, immersive technology, precision medicine, open data, and more.
+  Conducted thorough research using diverse resources to assist professional staff with project tasks. 
+  """
 
 +++
+
