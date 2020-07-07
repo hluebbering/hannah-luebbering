@@ -1,5 +1,5 @@
 ---
-title: "An example conference paper"
+title: "Writing Content with Markdown Syntax"
 authors:
 - admin
 - Robert Ford
@@ -19,10 +19,9 @@ publication_types: ["1"]
 publication: In *Source Themes Conference*
 publication_short: In *STC*
 
-abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.
 
 # Summary. An optional shortened abstract.
-summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
+summary: 
 
 tags:
 - Source Themes
@@ -30,22 +29,17 @@ featured: true
 
 links:
 - name: Custom Link
-  url: http://example.org
-url_pdf: http://eprints.soton.ac.uk/352095/1/Cushen-IMV2013.pdf
-url_code: '#'
-url_dataset: '#'
-url_poster: '#'
-url_project: ''
-url_slides: ''
-url_source: '#'
-url_video: '#'
+  url: https://sourcethemes.com/academic/docs/writing-markdown-latex/
+#url_pdf: 
+#url_code: '#'
+#url_dataset: '#'
+#url_poster: '#'
+#url_project: '#'
+#url_slides: '#'
+url_source: https://sourcethemes.com/academic/docs/writing-markdown-latex/
+#url_video: '#'
 
-# Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder. 
-image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/pLCdAaMFLTE)'
-  focal_point: ""
-  preview_only: false
+
 
 # Associated Projects (optional).
 #   Associate this publication with one or more of your projects.
@@ -60,16 +54,248 @@ projects:
 #   Simply enter your slide deck's filename without extension.
 #   E.g. `slides: "example"` references `content/slides/example/index.md`.
 #   Otherwise, set `slides: ""`.
-slides: example
+slides: ""
 ---
 
-{{% alert note %}}
-Click the *Cite* button above to demo the feature to enable visitors to import publication metadata into their reference management software.
-{{% /alert %}}
+-----------------------------------
 
-{{% alert note %}}
-Click the *Slides* button above to demo Academic's Markdown slides feature.
-{{% /alert %}}
+## Sub-headings
+
+```
+## Heading 2
+### Heading 3
+#### Heading 4
+##### Heading 5
+###### Heading 6
+```
+
+-----------------------------------
+
+## Emphasis
+
+```
+**bold**
+_italics_
+```
+
+-----------------------------------
+
+## Lists
+
+### Ordered 
+
+```
+1. First
+2. Second
+```
+
+### Unordered
+
+```
+* First
+* Second
+```
+
+
+### To Do
+
+```
+- [x] Write math example
+- [x] Write diagram example
+- [ ] Do something else
+```
+
+- [x] Write math example
+- [x] Write diagram example
+- [ ] Do something else
+
+-----------------------------------
+
+## Images
+
+figure within a page’s folder:
+
+
+{`{< figure src="image.jpg" title="A caption" lightbox="true" >}`}
+
+
+
+{{< figure src="image.jpg" title="A caption" lightbox="true" >}}
+
+
+-----------------------------------
+
+## Videos
+
+### Youtube
+
+{`{< youtube w7Ft2ymGmfc >}`}
+
+
+### Local Video
+
+{`{< video src="my_video.mp4" controls="yes" >}`}
+
+
+-----------------------------------
+
+## Color
+
+<div style="color:blue;"> hi </div>
+
+
+-----------------------------------
+
+## Links
+
+```
+[I'm a link](https://www.google.com)
+
+[A publication]({{< ref "/publication/conference-paper/index.md" >}})
+```
+
+[I'm a link](https://www.google.com)
+
+[A publication]({{< ref "/publication/conference-paper/index.md" >}})
+
+  
+-----------------------------------
+
+## Emojis
+
+```
+I : heart : Hugo : smile :
+
+```
+
+I :heart: Hugo :smile:
+
+```
+: rocket : : rocket : : rocket : : rocket :
+```
+
+:rocket: :rocket: :rocket: :rocket: 
+
+-----------------------------------
+
+## Icons
+
+```
+{ {< icon name="terminal" pack="fas" >} } Terminal
+{ {< icon name="python" pack="fab" >} } Python  
+{ {< icon name="r-project" pack="fab" >} } R
+```
+
+{{< icon name="terminal" pack="fas" >}} Terminal  
+{{< icon name="python" pack="fab" >}} Python  
+{{< icon name="r-project" pack="fab" >}} R
+
+
+-----------------------------------
+
+## Blockquote
+
+```
+> This is a blockquote.
+```
+
+> This is a blockquote.
+
+-----------------------------------
+
+## Highlight
+
+```
+This is a { {< hl >} } highlighted quote { {< /hl >} }.
+```
+
+This is a {{< hl >}} highlighted quote {{< /hl >}}.
+
+-----------------------------------
+
+## Footnotes
+
+```
+I have more [^1] to say.
+
+[^1]: Footnote example.
+```
+
+I have more [^1] to say.
+
+[^1]: Footnote example.
+
+-----------------------------------
+
+## Embed Documents
+
+{{< gdocs src="https://docs.google.com/document/d/e/2PACX-1vRjZ2VKR1hG_4vkWCpqYhFP6qrcKFAtks6xKjEfoZtPvE_MjzAWE19wW5JsL9QSLf4VhjP4NhLHRgGN/pub?embedded=true">}}
+
+
+-----------------------------------
+
+## Diagrams
+
+* toggle the diagram option in `config/_default_params.toml` file 
+* or add diagram: true to the page front matter
+
+```mermaid
+graph TD;
+  A-->B;
+  A-->C;
+  B-->D;
+  C-->D;
+```
+
+
+```mermaid
+gantt
+  dateFormat  YYYY-MM-DD
+  section Section
+  A task           :a1, 2014-01-01, 30d
+  Another task     :after a1  , 20d
+  section Another
+  Task in sec      :2014-01-12  , 12d
+  another task      : 24d
+```
+
+-----------------------------------
+
+## Twitter
+
+```
+{ {< tweet 666616452582129664 >} }
+```
+
+-----------------------------------
+
+## Math
+
+$$\gamma_{n} = \frac{ 
+\left | \left (\mathbf x_{n} - \mathbf x_{n-1} \right )^T 
+\left [\nabla F (\mathbf x_{n}) - \nabla F (\mathbf x_{n-1}) \right ] \right |}
+{\left \|\nabla F(\mathbf{x}_{n}) - \nabla F(\mathbf{x}_{n-1}) \right \|^2}$$
+
+
+$$f(k;p_0^*) = \begin{cases} p_0^* & \text{if }k=1, \\\\
+1-p_0^* & \text {if }k=0.\end{cases}$$
+
+
+-----------------------------------
+
+## Table
+
+
+| Command           | Description                    |
+| ------------------| ------------------------------ |
+| `hugo`            | Build your website.            |
+| `hugo serve -w`   | View your website.             |
+
+
+-----------------------------------
+
+
+
+
 
 Supplementary notes can be added here, including [code and math](https://sourcethemes.com/academic/docs/writing-markdown-latex/).
-
