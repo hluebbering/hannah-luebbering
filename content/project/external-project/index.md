@@ -1,12 +1,13 @@
 ---
 title: External Project
-summary: An example of linking directly to an external project website using `external_link`.
+summary: Study guide on the mathematics underlying sound and music, waveforms of sound and music notes, and Matlab functions to produce notes based on frequency.
 tags:
 - Demo
-date: "2016-04-27T00:00:00Z"
+date: "2020-07-27T00:00:00Z"
+
 
 # Optional external URL for project (replaces project detail page).
-external_link: http://example.org
+external_link: https://hannahluebbering.shinyapps.io/studyguide2/
 
 
 ---
