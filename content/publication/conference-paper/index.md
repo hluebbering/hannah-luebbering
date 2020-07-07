@@ -2,22 +2,20 @@
 title: "Writing Content with Markdown Syntax"
 authors:
 - admin
-- Robert Ford
-date: "2013-07-01T00:00:00Z"
+date: "2020-07-01T00:00:00Z"
 doi: ""
 
 # Schedule page publish date (NOT publication's date).
-publishDate: "2017-01-01T00:00:00Z"
+publishDate: "2020-07-01T00:00:00Z"
 
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
 # 3 = Preprint / Working Paper; 4 = Report; 5 = Book; 6 = Book section;
 # 7 = Thesis; 8 = Patent
-publication_types: ["1"]
+publication_types: ["4"]
 
 # Publication name and optional abbreviated publication name.
-publication: In *Source Themes Conference*
-publication_short: In *STC*
+publication: In *Hugo*
 
 
 # Summary. An optional shortened abstract.
@@ -58,6 +56,11 @@ slides: ""
 ---
 
 -----------------------------------
+
+## Overview
+
+Academic provides a fantastic framework, which creates visually pleasing websites using the Hugo static site generator. Academic writes rich content using Markdown, LaTex math, and Shortcodes (plugins). The following introduction post offers an overview of various formatting options. 
+
 
 ## Sub-headings
 
@@ -115,12 +118,12 @@ _italics_
 
 figure within a page’s folder:
 
+```
+{ {< figure src="image.jpg" title="A caption" lightbox="true" >} }
+```
 
-{`{< figure src="image.jpg" title="A caption" lightbox="true" >}`}
 
-
-
-{{< figure src="image.jpg" title="A caption" lightbox="true" >}}
+{{< figure src="image.jpg" title="Tasmania, 2020" lightbox="true" >}}
 
 
 -----------------------------------
@@ -129,19 +132,27 @@ figure within a page’s folder:
 
 ### Youtube
 
-{`{< youtube w7Ft2ymGmfc >}`}
+```
+{ {< youtube w7Ft2ymGmfc >} }
+```
 
 
 ### Local Video
 
-{`{< video src="my_video.mp4" controls="yes" >}`}
-
+```
+{ {< video src="my_video.mp4" controls="yes" >} }
+```
 
 -----------------------------------
 
 ## Color
 
-<div style="color:blue;"> hi </div>
+```
+<div style="color:blue;"> This text will be blue </div>
+```
+
+
+<div style="color:blue;"> This text will be blue </div>
 
 
 -----------------------------------
@@ -164,15 +175,11 @@ figure within a page’s folder:
 ## Emojis
 
 ```
-I : heart : Hugo : smile :
-
-```
-
-I :heart: Hugo :smile:
-
-```
+I : heart : Elon Musk 
 : rocket : : rocket : : rocket : : rocket :
 ```
+
+I :heart: Elon Musk 
 
 :rocket: :rocket: :rocket: :rocket: 
 
@@ -229,7 +236,9 @@ I have more [^1] to say.
 
 ## Embed Documents
 
-{{< gdocs src="https://docs.google.com/document/d/e/2PACX-1vRjZ2VKR1hG_4vkWCpqYhFP6qrcKFAtks6xKjEfoZtPvE_MjzAWE19wW5JsL9QSLf4VhjP4NhLHRgGN/pub?embedded=true">}}
+```
+{ {< gdocs src="https://docs.google.com/document/">} }
+```
 
 
 -----------------------------------
@@ -271,10 +280,24 @@ gantt
 
 ## Math
 
+```{bash}
 $$\gamma_{n} = \frac{ 
 \left | \left (\mathbf x_{n} - \mathbf x_{n-1} \right )^T 
 \left [\nabla F (\mathbf x_{n}) - \nabla F (\mathbf x_{n-1}) \right ] \right |}
 {\left \|\nabla F(\mathbf{x}_{n}) - \nabla F(\mathbf{x}_{n-1}) \right \|^2}$$
+```
+
+```{bash}
+$$f(k;p_0^*) = \begin{cases} p_0^* & \text{if }k=1, \\\\
+1-p_0^* & \text {if }k=0.\end{cases}$$
+```
+
+$$\gamma_{n} = \frac{ 
+\left | \left (\mathbf x_{n} - \mathbf x_{n-1} \right )^T 
+\left [\nabla F (\mathbf x_{n}) - \nabla F (\mathbf x_{n-1}) \right ] \right |}
+{\left \|\nabla F(\mathbf{x}_{n}) - \nabla F(\mathbf{x}_{n-1}) \right \|^2}$$
+
+
 
 
 $$f(k;p_0^*) = \begin{cases} p_0^* & \text{if }k=1, \\\\
@@ -285,6 +308,13 @@ $$f(k;p_0^*) = \begin{cases} p_0^* & \text{if }k=1, \\\\
 
 ## Table
 
+```
+| Command           | Description                    |
+| ------------------| ------------------------------ |
+| `hugo`            | Build your website.            |
+| `hugo serve -w`   | View your website.             |
+```
+
 
 | Command           | Description                    |
 | ------------------| ------------------------------ |
@@ -293,8 +323,6 @@ $$f(k;p_0^*) = \begin{cases} p_0^* & \text{if }k=1, \\\\
 
 
 -----------------------------------
-
-
 
 
 
