@@ -1,8 +1,9 @@
 ---
-title: Writing Content with Markdown Syntax
+title: Markdown Syntax
 date: 2020-07-12
 math: true
 diagram: true
+
 ---
 
 ## Overview
