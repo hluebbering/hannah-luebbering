@@ -212,8 +212,8 @@ I :heart: Elon Musk
 
 ## Highlight
 
-```
-This is a { {< hl >} } highlighted quote { {< /hl >} }.
+```markdown
+This is a {{</* hl */>}} highlighted quote {{</* /hl */>}}.
 ```
 
 This is a {{< hl >}} highlighted quote {{< /hl >}}.
