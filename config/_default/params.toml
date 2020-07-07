@@ -112,7 +112,7 @@ email = "luebhr@gmail.com"
 #   Set to `[]` to disable, or comment out unwanted lines with a hash `#`.
 contact_links = [
   {icon = "github", icon_pack = "fab", name = "Github", link = "https://github.com/hluebbering"},
-  {icon = "linkedin", icon_pack = "fab", name = "LinkedIn", link = "www.linkedin.com/in/hannah-luebbering-99609818a"},
+  {icon = "linkedin", icon_pack = "fab", name = "LinkedIn", link = "https://www.linkedin.com/in/hannah-luebbering-99609818a/"},
   {icon = "facebook", icon_pack = "fab", name = "Facebook", link = "https://facebook.com/hannahluebbering"},
   # {icon = "telegram", icon_pack = "fab", name = "Telegram Me", link = "https://telegram.me/@Telegram"},
   ]
@@ -133,7 +133,7 @@ twitter = ""
 
 # Date and time format (refer to https://sourcethemes.com/academic/docs/customization/#date-format )
 #   Examples: "Mon, Jan 2, 2006" or "2006-01-02"
-date_format = "Jan 2, 2006"
+date_format = "January 2006"
 #   Examples: "3:04 pm" or "15:04"
 time_format = "3:04 PM"
 

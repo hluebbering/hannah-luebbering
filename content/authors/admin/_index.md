@@ -40,15 +40,15 @@ social:
 - icon: envelope
   icon_pack: fas
   link: '#contact'  # For a direct email link, use "luebhr@gmail.com".
-- icon: twitter
-  icon_pack: fab
-  link: https://twitter.com
-- icon: google-scholar
-  icon_pack: ai
-  link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
 - icon: github
   icon_pack: fab
   link: https://github.com/hluebbering
+- icon: linkedin
+  icon_pack: fab
+  link: https://www.linkedin.com/in/hannah-luebbering-99609818a/
+- icon: spotify
+  icon_pack: fab
+  link: https://open.spotify.com/user/hannahluebbering
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
 # - icon: cv
