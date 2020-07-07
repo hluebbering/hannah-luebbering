@@ -51,9 +51,9 @@ social:
   link: https://open.spotify.com/user/hannahluebbering
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
-# - icon: cv
-#   icon_pack: ai
-#   link: files/cv.pdf
+- icon: cv
+  icon_pack: ai
+  link: files/cv.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: ""
@@ -63,6 +63,7 @@ email: ""
 user_groups:
 - Researchers
 - Visitors
+
 ---
 
 Hannah Luebbering is an Applied Mathematics and Computer Science student at Wake Forest University seeking a career in software computing, data science, and related technologies. Motivated to learn, grow and excel in technology. 
