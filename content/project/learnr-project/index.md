@@ -1,5 +1,5 @@
 ---
-title: Digital Music Project
+title: LearnR Project
 summary: An example of linking directly to an external project website using `external_link`.
 tags:
 - Demo
@@ -11,5 +11,6 @@ external_link: https://hannahluebbering.shinyapps.io/studyguide2/
 image:
   caption: Photo by Toa Heftiba on Unsplash
   focal_point: Smart
+  
 ---
 
