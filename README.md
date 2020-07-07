@@ -3,16 +3,30 @@
 Guide: https://sourcethemes.com/academic/docs/get-started/
 
 
+`Hugo Academic Guide:`
+
+<https://sourcethemes.com/academic/docs/install/>
+
+
+`Deploying website:`
+
+* commit and push any updates to github
+
+* see website at <https://www.netlify.com>
+
+
 ### Browse for....
 
-`icons`
+`Icons:`
 
 <https://fontawesome.com/icons?d=gallery&s=brands>
 
+
 <https://www.flaticon.com>
 
-`colors`
+
+`Color:`
 
 <https://htmlcolorcodes.com>
 
-':rocket:'
+
