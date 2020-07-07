@@ -14,18 +14,12 @@ title = "Skills"
 # 
 # For available icons, see: https://sourcethemes.com/academic/docs/page-builder/#icons
 
-[[feature]]
-  icon = "r-project"
-  icon_pack = "fab"
-  name = "R"
-  description = "90%"
-  
-  
-[[feature]]
-  icon = "camera-retro"
-  icon_pack = "fas"
-  name = "Photography"
-  description = "10%"
+#[[feature]]
+#  icon = "r-project"
+#  icon_pack = "fab"
+#  name = "R"
+#  description = "90%"
+
 
 # Uncomment to use emoji icons.
 # [[feature]]
@@ -38,9 +32,22 @@ title = "Skills"
 # Place custom SVG icon in `assets/images/icon-pack/`, creating folders if necessary.
 # Reference the SVG icon name (without `.svg` extension) in the `icon` field.
 [[feature]]
-  icon = "infinity-solid"
+  icon = "calculator"
   icon_pack = "custom"
   name = "Mathematics"
   description = "90%"
+  
+[[feature]]
+  icon = "R_logo"
+  icon_pack = "custom"
+  name = "R"
+  description = "90%"
+
+  
+[[feature]]
+  icon = "cam"
+  icon_pack = "custom"
+  name = "Photography"
+  description = "10%"
 
 +++
