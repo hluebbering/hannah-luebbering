@@ -22,71 +22,48 @@ url_video: ""
   
 ---
 
-## Explaining Tidy Data
+<span style="color: #f2cf4a; font-family: Babas; font-size: 2em;">Explaining Tidy Data</span>
 
 ***
-[<span style="color:#ff5cec; font-family: Babas;">**CLICK HERE**</span>](https://hannahluebbering.shinyapps.io/tidy-tutorial/) 
+[<span style="color:#0c008f; font-family: Babas;">**CLICK HERE**</span>](https://hannahluebbering.shinyapps.io/tidy-tutorial/) 
 for full shiny tutorial
-***
 
-####  <div style="color:#0c008f;"> What is the tidyverse package? </div> 
-
-  The tidyverse package provides tidy tools and tidy data.
-
-
-####  <div style="color:#0c008f;"> What do tidyverse tools do? </div>
-
-  The package’s tools save us time and effort in data wrangling and altering. 
-
-  Hence, the tools help tidy up cluttered datasets.
-
-
-#### <div style="color:#0c008f;"> What is tidy data? </div>
-
-
-  Tidy data is an organization in R that sorts data
-
-  *Requires a particular format*
+The tidyverse package provides tidy tools and tidy data. Tidy datasets are an organization in R that requires a structured format. The package’s tools save us time and effort in data wrangling and altering, and hence, help tidy up cluttered datasets into tidy datasets. 
 
 
 <p>&nbsp;</p>
 
 
-## Base-List-Data-Frame 
+<span style="color: #f2cf4a; font-family: Babas; font-size: 2em;">Base-List-Data-Frame </span>
 
 ***
-[<span style="color:#ff5cec; font-family: Babas;">**CLICK HERE**</span>](https://hannahluebbering.shinyapps.io/base-list-data-frame/) 
+
+[<span style="color:#0c008f; font-family: Babas;">**CLICK HERE**</span>](https://hannahluebbering.shinyapps.io/base-list-data-frame/) 
 for full shiny tutorial
-***
 
-####  <div style="color:#0c008f;"> Explaining different types of columns in a data frame </div> 
 
-An R list is a recursive vector: a data structure consisting of a collection of components. 
-
-The components can be of different types (ie character, numeric) disguised as model objects, data frames, list-columns within data frames, and more.
-
+This module explains different types of columns in a data frame. An R list is a recursive vector: a data structure consisting of a collection of components. The components can be of different types (i.e., character, numeric) disguised as model objects, data frames, list-columns within data frames, and more.
 
 <p>&nbsp;</p>
 
-## Using Tidyvsere to Manipulate Data
 
+<span style="color: #f2cf4a; font-family: Babas; font-size: 2em;">Using Tidyvsere to Manipulate Data</span>
 
 ***
-[<span style="color:#ff5cec; font-family: Babas;">**CLICK HERE**</span>](https://hannahluebbering.shinyapps.io/Tidyverse_manipulating_data/) 
+
+[<span style="color:#0c008f; font-family: Babas;">**CLICK HERE**</span>](https://hannahluebbering.shinyapps.io/Tidyverse_manipulating_data/) 
 for full shiny tutorial
-***
 
-####  <div style="color:#0c008f;"> Explaining how to manipulate data frames in R using tidyverse </div>
 
-Working on the dplyr package -core tidyverse package- to manipulate data.
+This study used a tidyverse software package called dplyr to process the data. Employing dplyr’s basic data manipulation methods requires various functions. These functions include, 
 
-To explore dplyr’s basic data manipulation methods, we will learn how to use the following functions:
+  - subset or filter() a data frame’s observations by picking their values
 
-* Subset or filter() a data frame’s observations by picking their values
+  - choose variables or select() a data frame’s columns 
 
-* Pick variables or select() a data frame’s columns
+  - add or mutate() variables to a data frame 
 
-* Add or mutate() variables to a data frame
+  - condense or summarize() variables down to a single paraphrase
 
-* Condense or summarise() variables down to a single summary
+<p>&nbsp;</p>
 
