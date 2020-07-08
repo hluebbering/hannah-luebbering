@@ -66,10 +66,6 @@ user_groups:
 
 ---
 
-Hannah Luebbering is an Applied Mathematics and Computer Science student at Wake Forest University seeking a career in software computing, data science, and related technologies. Motivated to learn, grow and excel in technology. 
-
-She helps lead the Wake Forest Association for Women in Mathematics, which establishes various programs and workshops to mentor and support students in math and science. 
-
-She researches Data Science Pedagogy with the Wake Forest Statastics department, which deploys modules for a randomized trial that assigns students to the tidyverse or base modality for learning R. 
+Hannah Luebbering is an Applied Mathematics and Computer Science student at Wake Forest University seeking a career in software computing, data science, and related technologies. Motivated to learn, grow, and excel in technology. Hannah helps lead the Wake Forest Association for Women in Mathematics, which establishes various programs and workshops to mentor and support students in math and science. Hannah works with the Wake Forest Statistics department to study data science pedagogy. This study deploys a module for a random experiment, which assigns students to tidyverse or "base" models to learn R.
 
 
