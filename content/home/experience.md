@@ -27,7 +27,7 @@ date_format = "Jan 2006"
   description = """
   Data Science Pedagogy studies include:
   
-  * deploying R packages such as learnr, shiny, rdrop2, and more
+  * deploying R packages such as learnr, shiny, and rdrop2
   * building tutorials for a randomized controlled trial
   * using R for randomization and collection of data
   
@@ -43,6 +43,18 @@ date_format = "Jan 2006"
   description = """
   Completed projects with various industries involving preventative health, chronic illness, immersive technology, precision medicine, open data, and more.
   Conducted thorough research using diverse resources to assist professional staff with project tasks. 
+  """
+  
+[[experience]]
+  title = "Nanotechnology and Chemistry Research"
+  company = "Wake Forest University"
+  company_url = ""
+  location = "Winston-Salem, North Carolina"
+  date_start = "2018-08-01"
+  date_end = "2019-05-01"
+  description = """
+  Conducted experiments and analyzed samples using UV-VIS spectroscopy, confocal microscopy, and Agilent software. Tracked experimental results and analyzed data using MatLab.
+  
   """
 
 +++
