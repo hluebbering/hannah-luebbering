@@ -97,7 +97,7 @@ figure within a page’s folder:
 
 -----------------------------------
 
-## Color
+## Font Color
 
 ```
 <div style="color:blue;"> This text will be blue </div>
@@ -105,6 +105,20 @@ figure within a page’s folder:
 
 
 <div style="color:blue;"> This text will be blue </div>
+
+-----------------------------------
+
+## Block color
+
+```
+<div style="background-color: #b8d4ff">
+  Block of color!
+</div>
+```
+
+<div style="background-color: #b8d4ff">
+  Block of color!
+</div>
 
 
 -----------------------------------
