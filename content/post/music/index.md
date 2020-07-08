@@ -10,18 +10,15 @@ image:
 
 ---
 
+
 <span style="color: #f2cf4a; font-family: Babas; font-size: 2em;">SPOTIFY</span>
 
+Spotify provides the `Play button` and the `Follow button`; these widgets display a song, artist, album, user, or playlist within a html web project.
 
-### Spotify
-
-----------
-
-Spotify provide the Play Button and the Follow button. These widgets display a song, artist, album, user, or playlist within a html web project.
-
-<https://developer.spotify.com/documentation/widgets/>
-
-----------
+***
+[<span style="color:#ff5cec; font-family: Babas;">**CLICK HERE**</span>](https://developer.spotify.com/documentation/widgets/) 
+for full documentation
+***
 
 
 #### Follow Button
@@ -33,6 +30,7 @@ Spotify provide the Play Button and the Follow button. These widgets display a s
 
 <iframe src="https://open.spotify.com/follow/1/?uri=spotify:user:hannahluebbering&size=detail&theme=light" width="300" height="56" scrolling="no" frameborder="0" style="border:none; overflow:hidden;" allowtransparency="true"></iframe>
 
+<p>&nbsp;</p>
 
 #### Play Button
 
