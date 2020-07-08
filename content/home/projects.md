@@ -26,12 +26,16 @@ subtitle = ""
     tag = "*"
   
   [[content.filter_button]]
-    name = "Computer Science"
-    tag = "Computer Science"
+    name = "Matlab"
+    tag = "Matlab"
   
   [[content.filter_button]]
-    name = "Other"
-    tag = "Demo"
+    name = "R"
+    tag = "R"
+  
+  [[content.filter_button]]
+    name = "Machine Learning"
+    tag = "Machine Learning"
 
 [design]
   # Choose how many columns the section has. Valid values: 1 or 2.
