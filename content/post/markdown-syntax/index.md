@@ -1,5 +1,6 @@
 ---
-title: Markdown Syntax
+title: Academic Formatting
+abstract: Formatting with Markdown, LaTex, and Shortcodes
 date: 2019-07-12
 math: true
 diagram: true
