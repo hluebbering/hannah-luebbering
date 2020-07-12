@@ -14,11 +14,6 @@ links:
   icon_pack: fab
   name: Follow
   url: https://github.com/hluebbering
-url_code: ""
-url_pdf: ""
-url_slides: ""
-url_video: ""
-
   
 ---
 
@@ -26,17 +21,35 @@ url_video: ""
 <span style="color: #f2cf4a; font-family: Babas; font-size: 2em;">TUTORIAL</span>
 
 ***
-[<span style="color:#0c008f; font-family: Babas;">**CLICK HERE**</span>](https://developer.spotify.com/documentation/widgets/) 
-for full documentation
 
-https://hannahluebbering.shinyapps.io/studyguide2/
+[<span style="color:#0c008f; font-family: Babas;">**CLICK HERE**</span>](https://hannahluebbering.shinyapps.io/studyguide2/) for interactive review
+
+Link to full tutorial [<span style="color:#0c008f; font-family: Babas;">**HERE**</span>](https://hannahluebbering.shinyapps.io/studyguide3/)
+
+Description:
+
+- understand the mathematics underlying sound and music
+
+- know square, triangle, and sawtooth waveforms
+
+- call a function from the command line; pass arguments into a given function
+
+{{< figure src="images/figure1.png" title="Interactive Tutorial made from shiny web application" lightbox="true" >}}
+
 
 <p>&nbsp;</p>
+
 
 <span style="color: #f2cf4a; font-family: Babas; font-size: 2em;">MATLAB</span>
 
 ***
-[<span style="color:#0c008f; font-family: Babas;">**CLICK HERE**</span>](https://developer.spotify.com/documentation/widgets/) 
+[<span style="color:#0c008f; font-family: Babas;">**CLICK HERE**</span>](https://github.com/hluebbering/music_in_matlab) 
 for full documentation
 
+Description:
 
+- create the first four measures of "Over the Rainbow," combining the right and left hands
+
+- make specific notes and sum and concatenate pieces of music
+
+{{< figure src="images/figure2.png" title="Matlab Function" lightbox="true" >}}
