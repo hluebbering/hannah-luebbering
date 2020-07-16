@@ -8,7 +8,9 @@ Guide: https://sourcethemes.com/academic/docs/get-started/
 <https://sourcethemes.com/academic/docs/install/>
 
 
-`Deploying website:`
+`Deploying:`
+
+Auto publishing is on; deploys from master are published automatically.
 
 * commit and push any updates to github
 
@@ -28,5 +30,7 @@ Guide: https://sourcethemes.com/academic/docs/get-started/
 `Color:`
 
 <https://htmlcolorcodes.com>
+
+<https://www.hexcolortool.com/E6F0FF#75efff>
 
 
