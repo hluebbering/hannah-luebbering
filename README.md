@@ -2,6 +2,10 @@
  
 Guide: https://sourcethemes.com/academic/docs/get-started/
 
+`Website URL:`
+
+<https://www.hannah-luebbering.com>
+
 
 `Hugo Academic Guide:`
 
@@ -32,5 +36,8 @@ Auto publishing is on; deploys from master are published automatically.
 <https://htmlcolorcodes.com>
 
 <https://www.hexcolortool.com/E6F0FF#75efff>
+
+
+
 
 
