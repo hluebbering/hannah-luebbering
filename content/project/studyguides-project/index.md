@@ -1,9 +1,10 @@
 ---
-title: Study Guides
-summary: An example of using the in-built project page.
+title: Digital Music Study Guides
+summary: Computer Science Intro to Digital Sound and Music Study Guides and Tutorials
 tags:
-- Deep Learning
+- Digital Sound
 date: "2016-04-27T00:00:00Z"
+bibliography: references.bib
 
 # Optional external URL for project (replaces project detail page).
 external_link: ""
@@ -13,20 +14,32 @@ links:
 - icon: github
   icon_pack: fab
   name: Follow
-  url: https://github.com/hluebbering
-url_code: ""
-url_pdf: ""
-url_slides: ""
-url_video: ""
+  url: https://github.com/hluebbering/studyguide-DigitalMusic
 
-# Slides (optional).
-#   Associate this project with Markdown slides.
-#   Simply enter your slide deck's filename without extension.
-#   E.g. `slides = "example-slides"` references `content/slides/example-slides.md`.
-#   Otherwise, set `slides = ""`.
-# slides: example
 
 ---
 
 
-### Insert code here
+
+<span style="color: #f2cf4a; font-family: Babas; font-size: 2em;">TUTORIAL 6A</span>
+
+***
+
+Link to full tutorial [<span style="color:#0c008f; font-family: Babas;">**HERE**</span>](https://hannahluebbering.shinyapps.io/tutorial6A/)
+
+
+{{< figure src="images/figure1.png" lightbox="true" >}}
+
+<p>&nbsp;</p>
+
+
+<span style="color: #f2cf4a; font-family: Babas; font-size: 2em;">TUTORIAL 6B</span>
+
+***
+
+Link to full tutorial [<span style="color:#0c008f; font-family: Babas;">**HERE**</span>](https://hannahluebbering.shinyapps.io/tutorial6B/)
+
+
+{{< figure src="images/figure2.png" lightbox="true" >}}
+
+
