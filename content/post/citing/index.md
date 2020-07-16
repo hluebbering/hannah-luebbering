@@ -2,9 +2,11 @@
 title: Adding citations into Markdown 
 subtitle: References to cite in Markdown document
 abstract: References to cite in Markdown document
-date: 2020-08-01
+date: 2020-07-01
 math: true
 diagram: true
+image:
+  placement: 2
 
 links:
 - icon: github
