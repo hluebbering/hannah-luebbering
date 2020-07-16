@@ -39,5 +39,6 @@ Auto publishing is on; deploys from master are published automatically.
 
 
 
+???
 
-
+delete sources/init_kickstart.sh file 
