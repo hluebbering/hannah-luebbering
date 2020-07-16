@@ -4,7 +4,6 @@ summary: Computer Science Intro to Digital Sound and Music Study Guides and Tuto
 tags:
 - Digital Sound
 date: "2016-04-27T00:00:00Z"
-bibliography: references.bib
 
 # Optional external URL for project (replaces project detail page).
 external_link: ""
@@ -15,7 +14,6 @@ links:
   icon_pack: fab
   name: Follow
   url: https://github.com/hluebbering/studyguide-DigitalMusic
-
 
 ---
 
@@ -42,4 +40,6 @@ Link to full tutorial [<span style="color:#0c008f; font-family: Babas;">**HERE**
 
 {{< figure src="images/figure2.png" lightbox="true" >}}
 
+[^1] References
 
+[^1]: Burg Jennifer, Romney Jason, and Schwartz Eric. 2016. Digital Sound & Music: Concepts, Applications, and Science. Book. Franklin, Beedle & Associates Inc. http://digitalsoundandmusic.com.
