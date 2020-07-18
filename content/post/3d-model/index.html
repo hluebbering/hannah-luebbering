@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>&lt;model-viewer&gt; example</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Slab:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="demo-styles.css">
+
+    <!-- The following libraries and polyfills are recommended to maximize browser support -->
+    <!-- NOTE: you must adjust the paths as appropriate for your project -->
+
+    <!-- 🚨 REQUIRED: Web Components polyfill to support Edge and Firefox < 63 -->
+    <script src="https://unpkg.com/@webcomponents/webcomponentsjs@2.1.3/webcomponents-loader.js"></script>
+
+    <!-- 💁 OPTIONAL: Intersection Observer polyfill for better performance in Safari and IE11 -->
+    <script src="https://unpkg.com/intersection-observer@0.5.1/intersection-observer.js"></script>
+
+    <!-- 💁 OPTIONAL: Resize Observer polyfill improves resize behavior in non-Chrome browsers -->
+    <script src="https://unpkg.com/resize-observer-polyfill@1.5.0/dist/ResizeObserver.js"></script>
+
+    <!-- 💁 OPTIONAL: The :focus-visible polyfill removes the focus ring for some input types -->
+    <script src="https://unpkg.com/focus-visible@5.0.2/dist/focus-visible.js" defer></script>
+
+  </head>
+<body>
+  <div id="card">
+    <!-- All you need to put beautiful, interactive 3D content on your site: -->
+
+    <model-viewer src="third_party/Noodles/object.glb"
+                  alt="3D model of a repeating spiral pattern"
+                  shadow-intensity="1"
+                  camera-controls
+                  auto-rotate ar>
+    </model-viewer>
+    <section class="attribution">
+      <span>
+        <h1>Noodles!</h1>
+        <span>By <a href="https://www.hannah-luebbering.com" target="_blank">Me!</a></span>
+      </span>
+      <a class="cc" href="https://creativecommons.org/licenses/by/2.0/" target="_blank">
+        <img src="https://mirrors.creativecommons.org/presskit/icons/cc.svg">
+        <img src="https://mirrors.creativecommons.org/presskit/icons/by.svg">
+      </a>
+    </section>
+    </div>
+
+    <footer>
+
+    <span>Can use Google Poly and SketchLab to find 3D objects. </span>
+
+  </footer>
+  <a href="https://poly.google.com"" class="button4" style="background-color:#f14ebd">More 3D Obects</a>
+
+
+  <div id="card">
+    <!-- All you need to put beautiful, interactive 3D content on your site: -->
+
+    <model-viewer src="third_party/XWing/model.glb"
+                  alt="A 3D model"
+                  shadow-intensity="1"
+                  camera-controls
+                  auto-rotate ar>
+    </model-viewer>
+    <section class="attribution">
+      <span>
+        <h1>X Wing</h1>
+        <span>By <a href="https://poly.google.com/view/d6Xadlg51aC" target="_blank">Poly</a></span>
+      </span>
+      <a class="cc" href="https://creativecommons.org/licenses/by/2.0/" target="_blank">
+        <img src="https://mirrors.creativecommons.org/presskit/icons/cc.svg">
+        <img src="https://mirrors.creativecommons.org/presskit/icons/by.svg">
+      </a>
+    </section>
+
+  </div>
+
+
+  <div id="card">
+    <!-- All you need to put beautiful, interactive 3D content on your site: -->
+
+    <model-viewer src="third_party/Narwhal/Mesh_Narwhal.glb"
+                  alt="A cute 3D model of a Narwhal"
+                  shadow-intensity="1"
+                  background-color="#FF6F59"
+                  camera-controls
+                  auto-rotate ar>
+    </model-viewer>
+    <section class="attribution">
+      <span>
+        <h1>Narwhal</h1>
+        <span>By <a href="https://poly.google.com/view/9nvsRtWPsHv" target="_blank">Poly</a></span>
+      </span>
+      <a class="cc" href="https://creativecommons.org/licenses/by/2.0/" target="_blank">
+        <img src="https://mirrors.creativecommons.org/presskit/icons/cc.svg">
+        <img src="https://mirrors.creativecommons.org/presskit/icons/by.svg">
+      </a>
+    </section>
+
+  </div>
+
+
+  <div id="card">
+    <!-- All you need to put beautiful, interactive 3D content on your site: -->
+
+    <model-viewer src="third_party/Earth/earth_ball.glb"
+                  alt="A lovely 3D model of our planet <3"
+                  shadow-intensity="1"
+                  background-color="#FF6F59"
+                  camera-controls
+                  auto-rotate ar>
+    </model-viewer>
+    <section class="attribution">
+      <span>
+        <h1>Earth</h1>
+        <span>By <a href="https://poly.google.com/view/88CP80Kgb-u" target="_blank">Poly</a></span>
+      </span>
+      <a class="cc" href="https://creativecommons.org/licenses/by/2.0/" target="_blank">
+        <img src="https://mirrors.creativecommons.org/presskit/icons/cc.svg">
+        <img src="https://mirrors.creativecommons.org/presskit/icons/by.svg">
+      </a>
+    </section>
+
+
+  </div>
+
+
+
+  <div id="card">
+    <!-- All you need to put beautiful, interactive 3D content on your site: -->
+
+    <model-viewer src="third_party/TeslaModel3/scene.glb"
+                  alt="A 3D model of Elon Musk's Tesla Model 3"
+                  shadow-intensity="1"
+                  background-color="#FF6F59"
+                  camera-controls
+                  auto-rotate ar>
+    </model-viewer>
+    <section class="attribution">
+      <span>
+        <h1>Tesla Model 3</h1>
+        <span>By <a href="https://sketchfab.com/3d-models/tesla-model-3-117d7dbdd6f94df9886c42995cdd06db" target="_blank">SketchFab</a></span>
+      </span>
+      <a class="cc" href="https://creativecommons.org/licenses/by/2.0/" target="_blank">
+        <img src="https://mirrors.creativecommons.org/presskit/icons/cc.svg">
+        <img src="https://mirrors.creativecommons.org/presskit/icons/by.svg">
+      </a>
+    </section>
+
+
+  </div>
+
+
+
+  <div id="card">
+    <!-- All you need to put beautiful, interactive 3D content on your site: -->
+
+    <model-viewer src="third_party/TeslaCyberTruck/scene.glb"
+                  alt="A 3D model of Elon Musk's Tesla Cybertruck"
+                  shadow-intensity="1"
+                  background-color="#FF6F59"
+                  camera-controls
+                  auto-rotate ar>
+    </model-viewer>
+    <section class="attribution">
+      <span>
+        <h1>Tesla Cybertruck</h1>
+        <span>By <a href="https://sketchfab.com/3d-models/tesla-cybertruck-1ab0c3f248fa47019c4311abce9731a0" target="_blank">SketchFab</a></span>
+      </span>
+      <a class="cc" href="https://creativecommons.org/licenses/by/2.0/" target="_blank">
+        <img src="https://mirrors.creativecommons.org/presskit/icons/cc.svg">
+        <img src="https://mirrors.creativecommons.org/presskit/icons/by.svg">
+      </a>
+    </section>
+
+  </div>
+
+
+
+  <footer>
+    <span>This page displays 3D objects using the <a href="https://github.com/google/model-viewer/tree/master/packages/model-viewer" target="_blank">Google Model Viewer</a> web component.</span>
+    <span>It makes displaying 3D and AR content for HTML files. </span>
+    <span>Can use Google Poly and SketchLab to find 3D objects. </span>
+  </footer>
+  <a href="https://poly.google.com"" class="button4" style="background-color:#f14ebd">More 3D Obects!</a>
+
+!-- 💁 Include both scripts below to support all browsers! -->
+
+  <!-- Loads <model-viewer> for modern browsers: -->
+  <script type="module"
+      src="https://unpkg.com/@google/model-viewer/dist/model-viewer.js">
+  </script>
+
+  <!-- Loads <model-viewer> for old browsers like IE11: -->
+  <script nomodule
+      src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js">
+  </script>
+
+
+</body>
+</html>
