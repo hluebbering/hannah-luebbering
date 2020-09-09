@@ -1,4 +1,4 @@
-# Configuration of Hugo
+### Configuration of Hugo
  
 Guide: https://sourcethemes.com/academic/docs/get-started/
 
@@ -25,20 +25,9 @@ Auto publishing is on; deploys from master are published automatically.
 
 `Icons:`
 
-<https://fontawesome.com/icons?d=gallery&s=brands>
+[fontawesome](https://fontawesome.com/icons?d=gallery&s=brands)
 
 
-<https://www.flaticon.com>
+[flaticon](https://www.flaticon.com)
 
 
-`Color:`
-
-<https://htmlcolorcodes.com>
-
-<https://www.hexcolortool.com/E6F0FF#75efff>
-
-
-
-???
-
-delete sources/init_kickstart.sh file 
