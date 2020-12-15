@@ -8,7 +8,7 @@ tags:
 date: "2016-04-27T00:00:00Z"
 
 # Optional external URL for project (replaces project detail page).
-external_link: "https://github.com/hluebbering/music-in-matlab/project/pdf_report.pdf"
+external_link: "https://github.com/hluebbering/music-in-matlab/blob/master/project/pdf_report.pdf"
 
 links:
 - icon: github
