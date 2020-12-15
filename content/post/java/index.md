@@ -16,15 +16,14 @@ links:
 
 ---
 
-
-Java Lab 5. Sorting Algorithms
+Lab 5. Sorting Algorithms
 ================
 
 [![Badge](https://79e2hdgqbf59.runkit.sh)](https://git.io/gradientbadge)
 [![Badge](https://pcylahiqejai.runkit.sh)](https://git.io/gradientbadge)
 [![Badge](https://u7qa58vvcots.runkit.sh)](https://git.io/gradientbadge)
 
-## Insertion Sort :zap:
+## Insertion Sort
 
 ### Background
 
@@ -34,19 +33,17 @@ end. There are
 ![formula](https://render.githubusercontent.com/render/math?math=n-1)
 passes over the array, with a new unsorted value inserted each time
 
-  - ![\#FFFACD](https://placehold.it/15/FFFACD?text=+) expected running
-    time is
+  - expected running time is
     ![formula](https://render.githubusercontent.com/render/math?math=O\(n%5E2\))
     compares and data movements –most compares will lead to movement of
     a data value
 
-  - ![\#FFBBFF](https://placehold.it/15/FFBBFF?text=+) best case running
-    time performance is
+  - best case running time performance is
     ![formula](https://render.githubusercontent.com/render/math?math=O\(n\))
     comparisons –occurs for no movements of data within the array
 
-  - ![\#458B74](https://placehold.it/15/458B74?text=+) therefore, it’s
-    best to implement insertion sort on data that is nearly ordered
+  - therefore, it’s best to implement insertion sort on data that is
+    nearly ordered
 
  
 
@@ -61,7 +58,8 @@ list X: 7 5 4 6 8 2
     first element we don’t have to shift
   - Place the new element into its proper place within the sorted
     subarray
-    
+
+ 
 
 ![](images/equation.svg)
 
@@ -97,7 +95,7 @@ going to be bounded by
 
 -----
 
-## Bubble Sort :thought_balloon:
+## Bubble Sort
 
 ### Background
 
@@ -106,18 +104,16 @@ each component of the list. The method sorts the
 ![formula](https://render.githubusercontent.com/render/math?math=n)
 elements by linearly moving through the list
 
-  - ![\#C1CDC1](https://placehold.it/15/C1CDC1?text=+) where each pass
-    completes
+  - where each pass completes
     ![formula](https://render.githubusercontent.com/render/math?math=n-1)
     comparisons and
     ![formula](https://render.githubusercontent.com/render/math?math=n-1)
     exchanges.
 
-  - ![\#8470FF](https://placehold.it/15/8470FF?text=+) After one pass,
-    the largest integer-value should “bubble” up to the ArrayList’s
-    high-indexed side –the operation repeats.
+  - After one pass, the largest integer-value should “bubble” up to the
+    ArrayList’s high-indexed side –the operation repeats.
 
-  - ![\#EEE0E5](https://placehold.it/15/EEE0E5?text=+) After
+  - After
     ![formula](https://render.githubusercontent.com/render/math?math=n-1)
     passes, the bubble sorting terminates.
 
@@ -151,7 +147,7 @@ input (data points) size grows.
 
 -----
 
-## Merge Sort :collision:
+## Merge Sort
 
 ### Background
 
@@ -159,14 +155,9 @@ input (data points) size grows.
 recursively splits, sorts, and reconstructs the data. This method
 recursively
 
-  - ![\#E6E6FA](https://placehold.it/15/E6E6FA?text=+) divides the data
-    into two unsorted lists,
-
-  - ![\#778899](https://placehold.it/15/778899?text=+) sorts the two
-    lists,
-
-  - ![\#AEEEEE](https://placehold.it/15/AEEEEE?text=+) and then merges
-    the two sorted lists.
+  - divides the data into two unsorted lists,
+  - sorts the two lists,
+  - and then merges the two sorted lists.
 
  
 
@@ -204,7 +195,6 @@ hence, the search algorithm has a run time that grows logarithmically as
 the input size grows.
 
 -----
-
 
 ## Summary
 
