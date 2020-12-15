@@ -29,21 +29,12 @@ Lab 5. Sorting Algorithms
 
 **Definition.** a Java sorting method where the sorted values locate to
 the low end of the array, and the unsorted values locate to the high
-end. There are
-![formula](https://render.githubusercontent.com/render/math?math=n-1)
-passes over the array, with a new unsorted value inserted each time
+end. There are $n-1$ passes over the array, with a new unsorted value inserted each time
 
-  - expected running time is
-    ![formula](https://render.githubusercontent.com/render/math?math=O\(n%5E2\))
-    compares and data movements –most compares will lead to movement of
-    a data value
-
-  - best case running time performance is
-    ![formula](https://render.githubusercontent.com/render/math?math=O\(n\))
-    comparisons –occurs for no movements of data within the array
-
-  - therefore, it’s best to implement insertion sort on data that is
-    nearly ordered
+- expected running time is ![formula](https://render.githubusercontent.com/render/math?math=O\(n%5E2\)) compares and data movements –most compares will lead to movement of a data value
+- best case running time performance is ![formula](https://render.githubusercontent.com/render/math?math=O\(n\)) comparisons –occurs for no movements of data within the array
+- therefore, it’s best to implement insertion sort on data that is
+nearly ordered
 
  
 
