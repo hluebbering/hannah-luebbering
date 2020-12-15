@@ -1,7 +1,7 @@
 ---
-title: Embedding Widgets
-subtitle: Embedding different kinds of Widgets into an HTML document
-abstract: Embedding Widgets into an HTML document
+title: Music in Matlab
+subtitle: Example using OverTheRainbow.m
+abstract: Make music in Matlab, Adobe Audition, and Waveform
 date: 2019-07-12
 math: true
 diagram: true
@@ -19,53 +19,42 @@ url_video: ""
 ---
 
 
-<span style="color: #f2cf4a; font-family: Babas; font-size: 2em;">SPOTIFY</span>
+<span style="color: #f2cf4a; font-family: Babas; font-size: 2em;">Music in Matlab</span>
 
-***
-[<span style="color:#0c008f; font-family: Babas;">**CLICK HERE**</span>](https://developer.spotify.com/documentation/widgets/) 
-for full documentation
+*Make music in Matlab, Adobe Audition, and Waveform*
 
+### In `MATLAB`, the provided code creates the first four measures of *"Over the Rainbow,"* combining the right and left hands. Using various functions, we can make specific notes and sum and concatenate pieces of music.
 
-Spotify provides a follow button and play button, which are widgets that display a song, artist, album, user, or playlist in an HTML web project.
+#### Example using OverTheRainbow.m
 
+- Call function from the Command Line
 
-#### Follow Button
+- save in a variable the sound data returned from function call
 
-```
-<iframe src="https://open.spotify.com/follow/1/?uri=spotify:user:hannahluebbering&size=detail&theme=light" width="300" height="56" scrolling="no" frameborder="0" style="border:none; overflow:hidden;" allowtransparency="true"></iframe>
-```
+- play the sound data, as shown below:
 
+`rainbow = overTheRainbow;`
 
+`sound(rainbow, 44100);`
 
-<iframe src="https://open.spotify.com/follow/1/?uri=spotify:user:hannahluebbering&size=detail&theme=light" width="300" height="56" scrolling="no" frameborder="0" style="border:none; overflow:hidden;" allowtransparency="true"></iframe>
-
-<p>&nbsp;</p>
+`audiowrite('rainbow.wav', rainbow, 44100);`
 
 
-#### Play Button
+#### Example using myMusic.m
 
-```
-<iframe src="https://open.spotify.com/embed/playlist/62ALG3bA1Pohv8JK1TyXRg" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
-```
+- Simulating the use of tracks by making different sounds in MATLAB -- three different lists of numbers -- summed into one song
 
-<iframe src="https://open.spotify.com/embed/playlist/62ALG3bA1Pohv8JK1TyXRg" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+- `melodyTrack.m` function that simulates a melody track
 
+- `chordsTrack.m` function simulates the chords track played for harmony
 
-<p>&nbsp;</p>
+- `droneTrack.m` function simulates a droning or repeating sound
 
+- play the sound data, as shown below:
 
+`mySong = myMusic;`
 
-<span style="color: #f2cf4a; font-family: Babas; font-size: 2em;">MICROSOFT/ COVID-19</span>
+`sound(mySong, 44100);`
 
-***
-[<span style="color:#0c008f; font-family: Babas;">**CLICK HERE**</span>](https://github.com/microsoft/COVID-19-Widget) 
-for full documentation
-
-```
-<div class="bingwidget" data-type="covid19" data-market="en-us" data-language="en-us"></div>
-<script src="//www.bing.com/widget/bootstrap.answer.js" async=""></script>
-```
-
-<div class="bingwidget" data-type="covid19" data-market="en-us" data-language="en-us"></div>
-<script src="//www.bing.com/widget/bootstrap.answer.js" async=""></script>
+- assumed that music will be constructed at a sampling rate of 44100 Hz (i.e., samples/second)
 
