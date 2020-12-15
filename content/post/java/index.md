@@ -11,8 +11,8 @@ image:
 links:
 - icon: github
   icon_pack: fab
-  name: Follow
-  url: https://github.com/hluebbering
+  name: Java Code
+  url: https://github.com/hluebbering/java-structures/tree/main/04-Sorting/src
 
 ---
 
@@ -104,18 +104,12 @@ each component of the list. The method sorts the
 ![formula](https://render.githubusercontent.com/render/math?math=n)
 elements by linearly moving through the list
 
-  - where each pass completes
-    ![formula](https://render.githubusercontent.com/render/math?math=n-1)
-    comparisons and
-    ![formula](https://render.githubusercontent.com/render/math?math=n-1)
-    exchanges.
+  - where each pass completes ![formula](https://render.githubusercontent.com/render/math?math=n-1) comparisons and ![formula](https://render.githubusercontent.com/render/math?math=n-1) exchanges.
 
   - After one pass, the largest integer-value should “bubble” up to the
     ArrayList’s high-indexed side –the operation repeats.
 
-  - After
-    ![formula](https://render.githubusercontent.com/render/math?math=n-1)
-    passes, the bubble sorting terminates.
+  - After ![formula](https://render.githubusercontent.com/render/math?math=n-1) passes, the bubble sorting terminates.
 
  
 
@@ -134,16 +128,7 @@ elements by linearly moving through the list
 #### Execution Times
 
 From the above execution times and graph, we can see that as the number
-of data points
-![formula](https://render.githubusercontent.com/render/math?math=n)
-increases, the number of steps it takes to complete the bubble sort
-increases **exponentially**. In **big-O notation**, the Simple Bubble
-Sort Method for sorting
-![formula](https://render.githubusercontent.com/render/math?math=n)
-elements of an array is
-![formula](https://render.githubusercontent.com/render/math?math=O\(n%5E2\));
-hence, the algorithm has a run time that grows quadratically as the
-input (data points) size grows.
+of data points ![formula](https://render.githubusercontent.com/render/math?math=n) increases, the number of steps it takes to complete the bubble sort increases **exponentially**. In **big-O notation**, the Simple Bubble Sort Method for sorting ![formula](https://render.githubusercontent.com/render/math?math=n) elements of an array is ![formula](https://render.githubusercontent.com/render/math?math=O\(n%5E2\)); hence, the algorithm has a run time that grows quadratically as the input (data points) size grows.
 
 -----
 
@@ -176,23 +161,9 @@ recursively
 
 #### Execution Times
 
-Each value
-![formula](https://render.githubusercontent.com/render/math?math=n) in
-the data set must be sorted into a temporary array, allotted once before
-every single merge; therefore, we have
-![formula](https://render.githubusercontent.com/render/math?math=n)
-compares over all the merges. From the above execution times and graph,
-we can see that as the number of data points
-![formula](https://render.githubusercontent.com/render/math?math=n)
-increases, the number of steps it takes to complete the bubble sort
-increases **logarithmically**.
+Each value ![formula](https://render.githubusercontent.com/render/math?math=n) in the data set must be sorted into a temporary array, allotted once before every single merge; therefore, we have ![formula](https://render.githubusercontent.com/render/math?math=n) compares over all the merges. From the above execution times and graph, we can see that as the number of data points ![formula](https://render.githubusercontent.com/render/math?math=n) increases, the number of steps it takes to complete the bubble sort increases **logarithmically**.
 
-In **big-O notation**, since there are
-![formula](https://render.githubusercontent.com/render/math?math=log%202n)
-split levels, we have a time execution of
-![formula](https://render.githubusercontent.com/render/math?math=O\(nlog%7Bn%7D\));
-hence, the search algorithm has a run time that grows logarithmically as
-the input size grows.
+In **big-O notation**, since there are ![formula](https://render.githubusercontent.com/render/math?math=log%202n) split levels, we have a time execution of ![formula](https://render.githubusercontent.com/render/math?math=O\(nlog%7Bn%7D\)); hence, the search algorithm has a run time that grows logarithmically as the input size grows.
 
 -----
 
