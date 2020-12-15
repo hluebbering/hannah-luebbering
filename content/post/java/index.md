@@ -19,7 +19,7 @@ links:
 Lab 5. Sorting Algorithms
 ================
 
-[![Badge](https://79e2hdgqbf59.runkit.sh)](https://git.io/gradientbadge) [![Badge](https://pcylahiqejai.runkit.sh)](https://git.io/gradientbadge) [![Badge](https://u7qa58vvcots.runkit.sh)](https://git.io/gradientbadge)
+[![Badge](https://79e2hdgqbf59.runkit.sh)](https://git.io/gradientbadge)
 
 ## Insertion Sort
 
@@ -78,6 +78,8 @@ At the worst case scenario for the algorithm, the whole array is descending. Thi
 
 -----
 
+[![Badge](https://pcylahiqejai.runkit.sh)](https://git.io/gradientbadge)
+
 ## Bubble Sort
 
 ### Background
@@ -110,6 +112,8 @@ From the above execution times and graph, we can see that as the number
 of data points $n$ increases, the number of steps it takes to complete the bubble sort increases **exponentially**. In **big-O notation**, the Simple Bubble Sort Method for sorting $n$ elements of an array is $O(n)$; hence, the algorithm has a run time that grows quadratically as the input (data points) size grows.
 
 -----
+
+[![Badge](https://u7qa58vvcots.runkit.sh)](https://git.io/gradientbadge)
 
 ## Merge Sort
 
