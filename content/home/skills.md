@@ -34,18 +34,24 @@ title = "Skills"
 [[feature]]
   icon = "calculator"
   icon_pack = "custom"
-  name = "Mathematics"
+  name = "Mathematics and Statistics"
   description = "30%"
 
 [[feature]]
   icon = "R_logo"
   icon_pack = "custom"
-  name = "R"
+  name = "Science"
   description = "20%"
-  
+
 [[feature]]
   icon = "R_logo"
   icon_pack = "custom"
+  name = "R"
+  description = "15%"
+  
+[[feature]]
+  icon = "python"
+  icon_pack = "fab"
   name = "Python"
   description = "15%"
 
@@ -54,17 +60,11 @@ title = "Skills"
   icon_pack = "custom"
   name = "Java"
   description = "15%"
-
-[[feature]]
-  icon = "R_logo"
-  icon_pack = "custom"
-  name = "Other"
-  description = "10%"
   
 [[feature]]
   icon = "cam"
   icon_pack = "custom"
   name = "Photography"
-  description = "10%"
+  description = "5%"
 
 +++
