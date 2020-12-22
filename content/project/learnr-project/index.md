@@ -1,9 +1,10 @@
 ---
-title: Learnr Project
-subtitle: Study creates modules for a randomized trial that randomly assigns students to the tidyverse or base modality for learning R.
-summary: Study creates modules for a randomized trial that randomly assigns students to the tidyverse or base modality for learning R.
+title: Shiny and Learnr in Randomized Trials 
+subtitle: Study created modules for a randomized trial that assigned students to the tidyverse or base modality for learning R. Interactive Tutorials made with R Markdown.
+summary: Study created modules for a randomized trial that assigned students to the tidyverse or base modality for learning R. Interactive Tutorials made with R Markdown.
 tags:
-- R
+- Data Science
+- Programming
 date: "2016-04-27T00:00:00Z"
 
 # Optional external URL for project (replaces project detail page).
