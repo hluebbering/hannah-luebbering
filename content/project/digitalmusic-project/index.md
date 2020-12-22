@@ -8,8 +8,8 @@ tags:
 date: "2016-04-27T00:00:00Z"
 
 # Optional external URL for project (replaces project detail page).
-external_link: digitalmusic-project.pdf
-# url_pdf: "digitalmusic-project.pdf"
+# external_link: digitalmusic-project.pdf
+url_pdf: digitalmusic-project.pdf
 links:
 - icon: github
   icon_pack: fab
