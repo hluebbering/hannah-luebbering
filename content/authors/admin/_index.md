@@ -29,7 +29,7 @@ interests:
 
 education:
   courses:
-  - course: BS in Applied Mathematics
+  - course: BS in Applied Mathematics, Minor in Computer Science
     institution: Wake Forest University
     year: 2021
 
