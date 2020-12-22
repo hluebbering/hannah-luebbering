@@ -48,12 +48,6 @@ title = "Skills"
   icon_pack = "custom"
   name = "R"
   description = "15%"
-  
-[[feature]]
-  icon = "python"
-  icon_pack = "custom"
-  name = "Python"
-  description = "15%"
 
 [[feature]]
   icon = "java"
@@ -62,9 +56,15 @@ title = "Skills"
   description = "15%"
   
 [[feature]]
-  icon = "cam"
+  icon = "python"
   icon_pack = "custom"
-  name = "Photography"
-  description = "5%"
+  name = "Python"
+  description = "10%"
+  
+[[feature]]
+  icon = "matlab"
+  icon_pack = "custom"
+  name = "MATLAB"
+  description = "10%"
 
 +++
