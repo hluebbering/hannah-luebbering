@@ -20,7 +20,7 @@ date_format = "Jan 2006"
 [[experience]]
   title = "Data Science Research"
   company = "Wake Forest University"
-  company_url = ""
+  company_url = "https://dmds.lucymcgowan.com"
   location = "Winston-Salem, North Carolina"
   date_start = "2020-01-01"
   date_end = ""
@@ -50,7 +50,7 @@ date_format = "Jan 2006"
   company = "Wake Forest University"
   company_url = ""
   location = "Winston-Salem, North Carolina"
-  date_start = "2018-05-01"
+  date_start = "2018-12-01"
   date_end = "2019-12-01"
   description = """
   Conducted experiments and analyzed samples using UV-VIS spectroscopy, confocal microscopy, and Agilent software. Tracked experimental results and analyzed data using MatLab.
@@ -59,16 +59,27 @@ date_format = "Jan 2006"
 
 [[experience]]
   title = "Concussion Research Assistant"
-  company = "Wake Forest University"
+  company = "Wake Forest Innovation Quarter"
   company_url = ""
   location = "Winston-Salem, North Carolina"
-  date_start = "2018-01-01"
-  date_end = "2019-05-01"
+  date_start = "2018-08-01"
+  date_end = "2019-01-01"
   description = """
   Monitored soccer players, outfitted players with mouthpiece software, collected data, and analyzed data for study of head impact in sports and injury biomechanics.
   
   """
 
-
+[[experience]]
+  title = "Clinical Internship/Shadowing Program"
+  company = "Wake Forest Baptist Health"
+  company_url = ""
+  location = "Winston-Salem, North Carolina"
+  date_start = "2018-01-01"
+  date_end = "2018-05-01"
+  description = """
+  Shadowed Dr. Talbott, an anesthesiologist at Wake Forest Baptist Health. Gained high quality clinical experience and increased understanding of the practice of medicine.
+  
+  """
+  
 +++
 
