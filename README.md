@@ -5,15 +5,13 @@ To Do.
 
 ### Add the following content
 
-* [ ] digital music project
+* [x] digital music project
 
-* [ ] shiny/learnr research
+* [x] shiny/learnr research
 
 * [ ] mathematical modeling project paper 
 
-* [X] resume 
-
-* [ ] r-stat learning
+* [x] resume 
 
 * [ ] nanotechnology and microscopic chemistry research
 
