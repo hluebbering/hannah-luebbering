@@ -3,7 +3,7 @@ title: DM Data Science Lab
 subtitle: I’m incredibly excited to work with Dr. McGowan, who is working on various exciting projects in R. Together, our research team is working on developing tools and shiny applications in teaching data science and studying human data interaction.
 summary: I’m incredibly excited to work with Dr. McGowan, who is working on various exciting projects in R. Together, our research team is working on developing tools and shiny applications in teaching data science and studying human data interaction.
 tags:
-- R Programming
+- R
 - Data Science
 - Data science pedagogy
 date: "2016-04-27T00:00:00Z"
