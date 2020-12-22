@@ -8,7 +8,7 @@ tags:
 date: "2016-04-27T00:00:00Z"
 
 # Optional external URL for project (replaces project detail page).
-# external_link: digitalmusic-project.pdf
+external_link: "https://hannahluebbering.shinyapps.io/studyguide3/"
 url_pdf: digitalmusic-project.pdf
 links:
 - icon: github
@@ -23,9 +23,11 @@ links:
 
 ***
 
-[<span style="color:#0c008f; font-family: Babas;">**CLICK HERE**</span>](https://hannahluebbering.shinyapps.io/studyguide2/) for interactive review
+Links to tutorials: 
 
-Link to full tutorial [<span style="color:#0c008f; font-family: Babas;">**HERE**</span>](https://hannahluebbering.shinyapps.io/studyguide3/)
+- [<span style="color:#0c008f; font-family: Babas;">**Interactive Review**</span>](https://hannahluebbering.shinyapps.io/studyguide2/)
+- [<span style="color:#0c008f; font-family: Babas;">**Study Guide**</span>](https://hannahluebbering.shinyapps.io/studyguide3/)
+
 
 Description:
 
