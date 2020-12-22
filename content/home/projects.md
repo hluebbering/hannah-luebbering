@@ -34,8 +34,24 @@ subtitle = ""
     tag = "R"
   
   [[content.filter_button]]
-    name = "Machine Learning"
-    tag = "Machine Learning"
+    name = "Data Science"
+    tag = "Data Science"
+ 
+  [[content.filter_button]]
+    name = "Java"
+    tag = "Java"
+    
+  [[content.filter_button]]
+    name = "Mathematical Modeling"
+    tag = "Mathematical Modeling"
+    
+  [[content.filter_button]]
+    name = "Python"
+    tag = "Python"
+ 
+  [[content.filter_button]]
+    name = "Science and Medicine"
+    tag = "Science and Medicine" 
 
 [design]
   # Choose how many columns the section has. Valid values: 1 or 2.
