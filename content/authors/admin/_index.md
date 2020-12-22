@@ -24,6 +24,8 @@ interests:
 - Artificial Intelligence
 - Data Science
 - Technology in Medicine
+- Environmental Science
+- Astronomy
 
 education:
   courses:
@@ -46,14 +48,11 @@ social:
 - icon: linkedin
   icon_pack: fab
   link: https://www.linkedin.com/in/hannah-luebbering-99609818a/
-- icon: spotify
-  icon_pack: fab
-  link: https://open.spotify.com/user/hannahluebbering
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
 - icon: cv
   icon_pack: ai
-  link: files/cv.pdf
+  link: https://www.hluebbering-resume.com
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: ""
@@ -68,8 +67,8 @@ user_groups:
 
 Hannah Luebbering is an Applied Mathematics and Computer Science student at Wake Forest University seeking a career in software computing, data science, and related technologies. Motivated to learn, grow, and excel in technology. 
 
-* Helps lead the Wake Forest Association for Women in Mathematics, which establishes various programs and workshops to mentor and support students in math and science 
+* Helps lead the Wake Forest Association for Women in Mathematics, which establishes various programs and workshops to mentor and support students in math and science.
 
-* Works with the Wake Forest Statistics department to study data science pedagogy. This study deploys a module for a random experiment, which assigns students to tidyverse or "base" models to learn R
+* Works with the Wake Forest Statistics department to study data science pedagogy. This study deploys a module for a random experiment, which assigns students to tidyverse or "base" models to learn R.
 
 
