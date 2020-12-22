@@ -29,9 +29,13 @@ interests:
 
 education:
   courses:
-  - course: BS in Applied Mathematics, Minor in Computer Science
+  - course: BS in Applied Mathematics
     institution: Wake Forest University
     year: 2021
+  - course: Minor in Computer Science
+    institution: Wake Forest University
+    year: 2021
+  
 
 ## Social
 social:
