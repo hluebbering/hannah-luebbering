@@ -26,10 +26,6 @@ subtitle = ""
     tag = "*"
   
   [[content.filter_button]]
-    name = "Matlab"
-    tag = "Matlab"
-  
-  [[content.filter_button]]
     name = "R"
     tag = "R"
   
@@ -38,20 +34,13 @@ subtitle = ""
     tag = "Data Science"
  
   [[content.filter_button]]
-    name = "Java"
-    tag = "Java"
+    name = "Programming"
+    tag = "Programming"
     
   [[content.filter_button]]
-    name = "Mathematical Modeling"
-    tag = "Mathematical Modeling"
-    
-  [[content.filter_button]]
-    name = "Python"
-    tag = "Python"
- 
-  [[content.filter_button]]
-    name = "Science and Medicine"
-    tag = "Science and Medicine" 
+    name = "Math Modeleling"
+    tag = "Math Modeleling"
+   
 
 [design]
   # Choose how many columns the section has. Valid values: 1 or 2.
