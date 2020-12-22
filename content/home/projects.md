@@ -26,10 +26,6 @@ subtitle = ""
     tag = "*"
   
   [[content.filter_button]]
-    name = "R"
-    tag = "R"
-  
-  [[content.filter_button]]
     name = "Data Science"
     tag = "Data Science"
  
@@ -40,6 +36,10 @@ subtitle = ""
   [[content.filter_button]]
     name = "Math Modeleling"
     tag = "Math Modeleling"
+  
+   [[content.filter_button]]
+    name = "Science"
+    tag = "Science"
    
 
 [design]
