@@ -38,7 +38,7 @@ title = "Skills"
   description = "30%"
 
 [[feature]]
-  icon = "R_logo"
+  icon = "corona"
   icon_pack = "custom"
   name = "Science"
   description = "20%"
@@ -51,12 +51,12 @@ title = "Skills"
   
 [[feature]]
   icon = "python"
-  icon_pack = "fab"
+  icon_pack = "custom"
   name = "Python"
   description = "15%"
 
 [[feature]]
-  icon = "R_logo"
+  icon = "java"
   icon_pack = "custom"
   name = "Java"
   description = "15%"
