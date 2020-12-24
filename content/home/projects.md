@@ -34,8 +34,8 @@ subtitle = ""
     tag = "Programming"
     
   [[content.filter_button]]
-    name = "Math Modeleling"
-    tag = "Math Modeleling"
+    name = "Math Models"
+    tag = "Math Models"
   
    [[content.filter_button]]
     name = "Science"
