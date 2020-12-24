@@ -49,6 +49,9 @@ social:
 - icon: cv
   icon_pack: ai
   link: https://www.hluebbering-resume.com
+- icon: camera-retro
+  icon_pack: fas
+  link: https://hluebbering.github.io/gallery/
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: ""
