@@ -1,5 +1,5 @@
 ---
-title: Digital Music Project
+title: Digital Sound and Music in Matlab
 subtitle: Intro to sound and music through basic physics, mathematics, algorithms, fundamental music theory, recorded digital audio, and MIDI. 
 summary:  Intro to sound and music through basic physics, mathematics, algorithms, fundamental music theory, recorded digital audio, and MIDI. 
 tags:
