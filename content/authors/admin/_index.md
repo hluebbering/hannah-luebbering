@@ -37,9 +37,9 @@ education:
 
 ## Social
 social:
-- icon: envelope
+- icon: camera-retro
   icon_pack: fas
-  link: '#contact'  # For a direct email link, use "luebhr@gmail.com".
+  link: https://hluebbering.github.io/gallery/
 - icon: github
   icon_pack: fab
   link: https://github.com/hluebbering
@@ -49,11 +49,11 @@ social:
 - icon: cv
   icon_pack: ai
   link: https://www.hluebbering-resume.com
-- icon: camera-retro
-  icon_pack: fas
-  link: https://hluebbering.github.io/gallery/
 
-# Enter email to display Gravatar (if Gravatar enabled in Config)
+# - icon: envelope
+  # icon_pack: fas
+  # link: '#contact'  # For a direct email link, use "luebhr@gmail.com".
+
 email: ""
 
 # Organizational groups that you belong to (for People widget)
