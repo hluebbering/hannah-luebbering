@@ -78,5 +78,3 @@ Hannah Luebbering is an Applied Mathematics and Computer Science student at Wake
 
 * Works with the Wake Forest Statistics department to study data science pedagogy. This study deploys a module for a random experiment, which assigns students to tidyverse or "base" models to learn R.
 
-* Loves to read autobiographies about inspirational figures who aim to make the world a better place.
-
