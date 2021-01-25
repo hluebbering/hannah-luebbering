@@ -69,11 +69,8 @@ user_groups:
 # I’m a dog lover who adores my three dogs Max, Pip, and Cubs.
 # I love to read autobiographies about inspirational figures who aim to make the world a better place.
 
+
 ---
-
-
-# Hannah Luebbering is an Applied Mathematics and Computer Science student at Wake Forest University, seeking a career in software computing, data science, and related technologies. Motivated to learn, grow, and excel in technology. A quote from Arthur C. Clark perfectly summarizes this interest in technology, declaring that "sufficiently advanced technology is indistinguishable from magic." 
-
 
 Applied Mathematics and Computer Science student at Wake Forest University seeking a full or part-time position in advance of attending graduate school. Motivated to learn, grow, and excel in data analysis, mathematics, science, and technology. Like Arthur C. Clark said, "sufficiently advanced technology is indistinguishable from magic." Proven success working in challenging, fast-paced, and collaborative settings.
 
