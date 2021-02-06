@@ -69,10 +69,14 @@ user_groups:
 # I’m a dog lover who adores my three dogs Max, Pip, and Cubs.
 # I love to read autobiographies about inspirational figures who aim to make the world a better place.
 
+# Like Arthur C. Clark said, "sufficiently advanced technology is indistinguishable from magic." Proven success working in challenging, fast-paced, and collaborative settings.
+
 
 ---
 
-Applied Mathematics and Computer Science student at Wake Forest University seeking a full or part-time position in advance of attending graduate school. Motivated to learn, grow, and excel in data analysis, mathematics, science, and technology. Like Arthur C. Clark said, "sufficiently advanced technology is indistinguishable from magic." Proven success working in challenging, fast-paced, and collaborative settings.
+**Hannah's Math and Data Science Portfolio**
+
+Applied Mathematics and Computer Science student at Wake Forest University. Motivated to learn, grow, and excel in data analysis, mathematics, science, and technology. 
 
 
 * Helps lead the Wake Forest Association for Women in Mathematics, which establishes various programs and workshops to mentor and support students in math and science.
