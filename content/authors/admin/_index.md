@@ -74,7 +74,9 @@ user_groups:
 
 ---
 
-**Hannah's Math and Data Science Portfolio**
+
+
+### Hannah's Math and Data Science Portfolio
 
 Applied Mathematics and Computer Science student at Wake Forest University. Motivated to learn, grow, and excel in data analysis, mathematics, science, and technology. 
 

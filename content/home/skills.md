@@ -35,36 +35,37 @@ title = "Skills"
   icon = "calculator"
   icon_pack = "custom"
   name = "Mathematics and Statistics"
-  description = "30%"
+  # description = "30%"
 
 [[feature]]
   icon = "corona"
   icon_pack = "custom"
-  name = "Science"
-  description = "20%"
+  name = "Biotechnology"
+  # description = "20%"
 
+[[feature]]
+  icon = "python"
+  icon_pack = "custom"
+  name = "Python"
+  # description = "10%"
+  
 [[feature]]
   icon = "R_logo"
   icon_pack = "custom"
   name = "R"
-  description = "15%"
+  # description = "15%"
 
 [[feature]]
   icon = "java"
   icon_pack = "custom"
   name = "Java"
-  description = "15%"
-  
-[[feature]]
-  icon = "python"
-  icon_pack = "custom"
-  name = "Python"
-  description = "10%"
+  # description = "15%"
   
 [[feature]]
   icon = "matlab"
   icon_pack = "custom"
   name = "MATLAB"
-  description = "10%"
+  # description = "10%"
+
 
 +++
