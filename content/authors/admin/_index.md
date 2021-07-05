@@ -48,7 +48,8 @@ social:
   link: https://www.linkedin.com/in/hannah-luebbering-99609818a/
 - icon: cv
   icon_pack: ai
-  link: https://www.hluebbering-resume.com
+  link: https://hluebbering.github.io/live-cv/
+  # link: https://www.hluebbering-resume.com
 
 # - icon: envelope
   # icon_pack: fas
